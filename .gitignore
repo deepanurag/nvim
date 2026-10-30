@@ -4,5 +4,13 @@ doc/tags
 debug
 .repro
 foo.*
-*.log
 data
+# Logs
+*.log
+# Temperory files
+*.swp
+*.swo
+*.Temp
+*~
+#cache
+.cache/
